@@ -1,0 +1,1 @@
+python main.py -m $1 -e $2 -b $3 --no-validate --dataset imagenette --split-size $4
