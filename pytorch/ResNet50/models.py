@@ -54,3 +54,4 @@ class PipelineParallelResNet50(ModelParallelResNet50):
         ret.append(self.fc(s_prev.view(s_prev.size(0), -1)))
 
         return torch.cat(ret)
+        
